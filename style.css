@@ -146,6 +146,10 @@ a {
   -o-border-radius: 12.5px;
 }
 
+.container .cardOne .rangeContainer input[type=range]::-webkit-slider-runnable-track {
+  color: #284DD9;
+}
+
 .container .cardTwo {
   background-color: #F0F1F1;
   padding: 60px 15px 60px 15px;

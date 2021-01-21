@@ -114,7 +114,10 @@ a{
                     -moz-border-radius: 12.5px;
                     -ms-border-radius: 12.5px;
                     -o-border-radius: 12.5px;
-}
+                        }
+                        &::-webkit-slider-runnable-track{
+                            color: $primaryColor;
+                        }
             }
 
         }
