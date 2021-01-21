@@ -126,16 +126,6 @@ a {
   border: none;
 }
 
-.container .cardOne .rangeContainer input[type=range]::-ms-fill-lower {
-  background: #777;
-  border-radius: 10px;
-}
-
-.container .cardOne .rangeContainer input[type=range]::-ms-fill-upper {
-  background: #ddd;
-  border-radius: 10px;
-}
-
 .container .cardOne .rangeContainer input[type=range]::-moz-range-progress {
   background-color: #284DD9;
   height: 25px;

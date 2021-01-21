@@ -97,14 +97,7 @@ a{
                         -o-border-radius: 50%;
                         border: none;
                 }
-                &::-ms-fill-lower {
-                    background: #777;
-                    border-radius: 10px;
-                }
-                &::-ms-fill-upper {
-                    background: #ddd;
-                    border-radius: 10px;
-                }
+
 
                 &::-moz-range-progress {
                     background-color: $primaryColor;
