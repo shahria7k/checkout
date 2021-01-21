@@ -1,0 +1,155 @@
+$bg1: #F0F1F1;
+$bg2:#29274A;
+$bgwhite: #FFFFFF;
+$primaryColor: #284DD9;
+$secondaryColor: #595773;
+$green: #00CC45;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: $bgwhite;
+}
+h1{
+    font-weight: 600;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.container{
+    padding: 10%;
+    max-width: 1180px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .cardOne{
+        background-color: $bg2;
+        padding: 60px 15px 60px 15px;
+        width: 50%;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+
+        h1
+            {
+            color: $bgwhite;
+            font-size: 50px;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .rangeContainer{
+            width: 100%;
+            padding: 0 20px;
+            input[type=range]{
+                // -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                width: 100%;
+                height: 25px;
+                background-color: $secondaryColor;
+                outline: none;
+                border-radius: 12.5px;
+                -webkit-border-radius: 12.5px;
+                -moz-border-radius: 12.5px;
+                -ms-border-radius: 12.5px;
+                -o-border-radius: 12.5px;
+                &::-moz-range-thumb
+                {
+                        -moz-appearance: none;
+                        appearance: none;
+                        width: 30px;
+                        height: 30px;
+                        background-color: $bgwhite;
+                        cursor: pointer;
+                        border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -ms-border-radius: 50%;
+                        -o-border-radius: 50%;
+                        border: none;
+}
+                &::-webkit-slider-thumb{
+                    -webkit-appearance: none;
+                    appearance: none;
+                    width: 30px;
+                    height: 30px;
+                    background-color: $bgwhite;
+                    cursor: pointer;
+                    border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -ms-border-radius: 50%;
+                        -o-border-radius: 50%;
+                        border: none;
+                }
+                &::-ms-fill-lower {
+                    background: #777;
+                    border-radius: 10px;
+                }
+                &::-ms-fill-upper {
+                    background: #ddd;
+                    border-radius: 10px;
+                }
+
+                &::-moz-range-progress {
+                    background-color: $primaryColor;
+                    height: 25px;
+                    border-radius: 12.5px;
+                    -webkit-border-radius: 12.5px;
+                    -moz-border-radius: 12.5px;
+                    -ms-border-radius: 12.5px;
+                    -o-border-radius: 12.5px;
+}
+            }
+
+        }
+}
+
+.cardTwo{
+    background-color: $bg1;
+        padding: 60px 15px 60px 15px;
+        width: 50%;
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
