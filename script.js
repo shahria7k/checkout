@@ -13,6 +13,9 @@ const btnMinus = () => {
     updateRange();
     updatePrice();
     }
+    else{
+        //if you want to display something
+    }
 };
 const btnPlus = () => {
     dataA= parseInt(count.innerHTML, 10)
@@ -21,6 +24,9 @@ const btnPlus = () => {
     slider.value = count.innerHTML;
     updateRange();
     updatePrice();
+    }
+    else{
+        //if you want to display something
     }
 };
 const updatePrice= () =>{
