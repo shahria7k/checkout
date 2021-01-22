@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="script.js" async></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <!-- Google fonts import-->
     <link
@@ -17,22 +17,33 @@
 <body>
     <div class="container">
         <div class="cardOne">
-            <h1 style="padding-left: 20px;">Hoeveel mensen zitten er in je team?</h1>
+            <h1 style="padding-left: 40px;">Hoeveel mensen zitten er in je team?</h1>
             <div class="center">
-                <button class="bntS" id="minus">g</button>
-                <h1 id="count"> 5 </h1>
-                <button class="bntS" id="plus">g</button>
+                <button class="btnS" id="minus" >-</button>
+                <div><h1 id="count"></h1> </div>
+                <button class="btnS" id="plus" >+</button>
             </div>
             <div class="rangeContainer" >
-                <input type="range" min="3" max="40" value="0">
+                <input type="range" min="3" max="40" value="3" id="slider">
             </div>
 
         <p> Meer dan 40 tamleaden? Stuur ons een berichtje!</p>
         </div>
-        <div class="cardTwo"></div>
+        <div class="cardTwo">
+            <h2>Je totaal komt uit op</h2>
+            <h1><span>&#8364;</span> <span id="price">345<span></h1>
+            <p><span>&#8364;</span>345 voor baisispakket (incl. 3 teamleden) + <span>&#8364;</span>55 per extre teamlid</p>
+            <div class="design"><h3>inclusief</h3></div>
+            <div class="featurs">
+                <div><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><p>Praktij leader board</p></div>
+                <div><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><p>Je hele team op een lijn</p></div>
+                <div><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><p>Houd bij wie waar is en waar ze vastiopen</p></div>
+                <div><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><p> Gebruiksvendelijk Platform</p></div>
+
+            </div>
+            <a href="#">Volgende stap</a>
+        </div>
     </div>
-
-
 </body>
 
 </html>
